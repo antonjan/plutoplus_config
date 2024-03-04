@@ -1,0 +1,35 @@
+# Analog Devices PlutoSDR Rev.C (Z7010-AD9363)^M                                
+# Device Configuration File^M                                                   
+#   1. Open with an Editor^M                                                    
+#   2. Edit this file^M                                                         
+#   3. Save this file on the device USB drive^M                                 
+#   4. Eject the device USB Drive^M                                             
+# Doc: https://wiki.analog.com/university/tools/pluto/users/customizing^M       
+^M                                                                              
+[NETWORK]^M                                                                     
+hostname = pluto^M                                                              
+ipaddr = 192.168.2.1^M                                                          
+ipaddr_host = 192.168.2.10^M                                                    
+netmask = 255.255.255.0^M                                                       
+^M                                                                              
+[WLAN]^M                                                                        
+ssid_wlan = ^M                                                                  
+pwd_wlan = ^M                                                                   
+ipaddr_wlan = ^M                                                                
+^M                                                                              
+[USB_ETHERNET]^M                                                                
+ipaddr_eth = 192.168.4.1^M                                                      
+netmask_eth = 255.255.255.0^M                                                   
+^M                                                                              
+[SYSTEM]^M                                                                      
+xo_correction = ^M                                                              
+udc_handle_suspend = 0^M                                                        
+# USB Communication Device Class Compatibility Mode [rndis|ncm|ecm]^M           
+usb_ethernet_mode = rndis^M                                                     
+^M                                                                              
+[ACTIONS]^M                                                                     
+diagnostic_report = 0^M                                                         
+dfu = 0^M                                                                       
+reset = 0^M                                                                     
+calibrate = 0^M                                                                 
+^M    
